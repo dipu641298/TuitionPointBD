@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dipu.tuitionpointbd.Activity3">
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/etInstitute"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etOccupation"
+        android:layout_alignStart="@+id/etOccupation"
+        android:layout_below="@+id/etOccupation"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Institute"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPreferredArea"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etInstitute"
+        android:layout_alignStart="@+id/etInstitute"
+        android:layout_below="@+id/etInstitute"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Preferred Areas"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etOccupation"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etFullName"
+        android:layout_alignStart="@+id/etFullName"
+        android:layout_below="@+id/etFullName"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Occupation"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/etRegisterUserID"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etPreferredArea"
+        android:layout_alignStart="@+id/etPreferredArea"
+        android:layout_alignTop="@+id/etPreferredArea"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="User ID(should be one word)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etRegisterUserID"
+        android:layout_alignStart="@+id/etRegisterUserID"
+        android:layout_below="@+id/etRegisterUserID"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etConfirmPass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etPass"
+        android:layout_alignStart="@+id/etPass"
+        android:layout_below="@+id/etPass"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

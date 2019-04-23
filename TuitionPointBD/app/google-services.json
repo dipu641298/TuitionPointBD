@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "661183847326",
+    "firebase_url": "https://tuitionpointbd.firebaseio.com",
+    "project_id": "tuitionpointbd",
+    "storage_bucket": "tuitionpointbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661183847326:android:b78738c52e6eb2f3",
+        "android_client_info": {
+          "package_name": "com.example.dipu.tuitionpointbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661183847326-so6npg8vfra03a56rsfp5iksbd11p18l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dipu.tuitionpointbd",
+            "certificate_hash": "ef72368c8890ade44e5b38ba922d905cb13ea7a7"
+          }
+        },
+        {
+          "client_id": "661183847326-mrack6ofpft99c8ilchp5jt1bhask7ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0aAFD4T86aVXYbAVbWc9326WVyLadZIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661183847326-mrack6ofpft99c8ilchp5jt1bhask7ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
